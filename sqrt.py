@@ -1,3 +1,4 @@
+# Sqrt calculation using Newton's Method
 s = 1
 x =2
 kmax = 10
