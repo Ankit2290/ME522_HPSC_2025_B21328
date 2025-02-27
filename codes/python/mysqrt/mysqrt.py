@@ -1,4 +1,4 @@
-def sqrt2(x,debug):
+def sqrt2(x,debug=False):
 	s = 1.0
 	kmax = 100
 	tol = 1.0e-14
@@ -13,7 +13,8 @@ def sqrt2(x,debug):
 	
 	if debug:
 		print(f"Finally, the value of s = {s:20.15f}");
-	return s
+	return s    
+	
 
 
 
